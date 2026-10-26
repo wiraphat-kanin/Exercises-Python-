@@ -1,7 +1,6 @@
 distance = float(input("กรอกระยะทางที่เดินทาง : "))
 member = str(input("คุณใช่สมาชิกหรือไม่ : ใช่พิมพ์ 'yes' ไม่ใช่พิมพ์ 'no' : "))
 fare = 0
-
 if member.lower() == "yes":
     if distance <= 5  :
         fare = 50*((100-10)/100)
@@ -21,4 +20,6 @@ elif member.lower() == "no":
         print("คุณไม่ได้เป็นสมาชิกมีค่าโดยสาร : 120 บาท")
 else:
     print("กรุณากรอกรายละเอียดให้ถุกต้อง!!!")
+
+
 
