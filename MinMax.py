@@ -1,9 +1,9 @@
 number_list = []
-for i in range (6):
+num = int(input())
+for i in range (num):
     val = int(input())
     number_list.append(val)
 
-print("--------")
 print(min(number_list))
 print(max(number_list))
 
